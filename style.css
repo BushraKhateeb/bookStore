@@ -56,7 +56,7 @@ padding: 0 8px;
     top: 10%;
     justify-content: space-around;  
     align-items: center;  
-position: relative;
+    position: relative;
 
 } 
 .mainContent h1{
@@ -120,7 +120,7 @@ position: relative;
 }
 .rev-card img{
     border-radius: 50%;
-    width: 20%;
+    width: 18%;
 }
 .reviews h2{
     font-size: 40px;
@@ -135,5 +135,14 @@ position: relative;
 .rev-card{
     width: 24%;
     text-align: justify;
+    
+}
+.top-card i{
+    font-size: 70px;
+    color: #a7a8a8;
+}
+.top-card{
+    display: flex;
+    justify-content: space-between;
 }
 /*end reviwes*/
