@@ -113,6 +113,7 @@ padding: 0 8px;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
+    padding-bottom: 100px;
 }
 .rev-card{
     padding: 20px;
