@@ -75,7 +75,7 @@ position: relative;
     color: #089da1; 
 
 } 
-.imgLearn img{
+.imgLearn {
     width: 750px;  
     top: 75px; 
     left: 30px;
