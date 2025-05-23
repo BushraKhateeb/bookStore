@@ -104,7 +104,7 @@ padding: 0 8px;
     border-radius: 50%;
     width: 18%;
 }
-.reviews h2{
+ h2{
     font-size: 40px;
     padding: 50px 0;
 }
@@ -155,6 +155,37 @@ padding: 0 8px;
 }
 /*end digital-book*/
 /*start our blog*/
-
+.blogs{
+    text-align: center;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.blog-card{
+    width: 28%;
+    box-shadow: 0 0 8px  rgb(61, 63, 63); 
+}
+.blog-card img{
+    width: 100%;
+    height: 400px;
+}
+.blog-text{
+    padding: 15px;
+    text-align: start;
+}
+.blog-text p{
+    text-align: justify;
+    padding:  10px 0;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons i, .blog-card h3{
+    color: #089;
+}
 /*end our blog*/
 
