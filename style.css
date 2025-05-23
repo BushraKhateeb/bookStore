@@ -50,7 +50,7 @@ padding: 0 8px;
 .mainContent{
 
     display: flex ;  
-    top: 20%;
+    top: 10%;
     justify-content: space-around;  
     align-items: center;  
 position: relative;
@@ -66,13 +66,13 @@ position: relative;
     text-align: justify; 
     line-height: 20px;  
     position: relative; 
-    width: 600px; 
+    width: 650px; 
     top: 120px; 
     left: 20px;
 
 } 
 .titleStyle{
-    color: #089; 
+    color: #089da1; 
 
 } 
 .imgLearn{
