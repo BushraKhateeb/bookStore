@@ -36,10 +36,16 @@ list-style: none;
 }  
 .liMenu{
 display: inline-block; 
-padding: 0 10px;
+padding: 0 8px;
 } 
 .aMenue{
     text-decoration: none; 
     color: black;
+}  
+.navIcon{
+    margin: 0 6px;  
+    padding: 0 3px;
+    font-size: 15px;
 } 
+
 
