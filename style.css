@@ -47,7 +47,7 @@ padding: 0 8px;
     padding: 0 3px;
     font-size: 15px;
 } 
-.mainContent{
+ .mainContent{
 
     display: flex ;  
     top: 10%;
@@ -66,7 +66,7 @@ position: relative;
     text-align: justify; 
     line-height: 20px;  
     position: relative; 
-    width: 650px; 
+    width: 500px; 
     top: 120px; 
     left: 20px;
 
@@ -75,13 +75,10 @@ position: relative;
     color: #089da1; 
 
 } 
-.imgLearn{
-    width: 100%;  
-    max-width: 500px;  
-    height: auto; 
-    display: block; 
+.imgLearn img{
+    width: 750px;  
     top: 75px; 
-    left: 20px;
+    left: 30px;
     position: relative; 
 
 } 
