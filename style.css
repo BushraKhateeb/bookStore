@@ -113,3 +113,27 @@ position: relative;
     color: white;
     text-decoration: none;
 }
+/*end digital-book*/
+/*start reviwes */
+.reviews{
+    text-align: center;
+}
+.rev-card img{
+    border-radius: 50%;
+    width: 20%;
+}
+.reviews h2{
+    font-size: 40px;
+    padding: 50px 0;
+}
+.review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.rev-card{
+    width: 24%;
+    text-align: justify;
+}
+/*end reviwes*/
