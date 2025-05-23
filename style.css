@@ -3,8 +3,11 @@ margin: 0;
 padding: 0;
 box-sizing: border-box; 
 font-family: sans-serif; 
-
 } 
+.container{
+    width: calc(100% - 100px);
+    margin: auto;
+}
 
 .mainSection{
 width: 100%; 
