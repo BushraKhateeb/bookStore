@@ -76,7 +76,10 @@ position: relative;
 
 } 
 .imgLearn{
-    width: 700px;  
+    width: 100%;  
+    max-width: 500px;  
+    height: auto; 
+    display: block; 
     top: 75px; 
     left: 20px;
     position: relative; 
