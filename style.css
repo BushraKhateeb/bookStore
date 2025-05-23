@@ -133,16 +133,23 @@ padding: 0 8px;
     gap: 10px;
 }
 .rev-card{
+    padding: 20px;
     width: 24%;
     text-align: justify;
-    
+    box-shadow: 0 0 8px  #089; 
 }
 .top-card i{
     font-size: 70px;
-    color: #a7a8a8;
+    color: #d3d5d5;
 }
 .top-card{
     display: flex;
     justify-content: space-between;
+}
+.text-card i,.text-card p,.text-card h3{
+    padding: 10px 0;
+}
+.text-card i{
+    color: #089;
 }
 /*end reviwes*/
