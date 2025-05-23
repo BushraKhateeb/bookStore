@@ -96,24 +96,6 @@ padding: 0 8px;
     
 
 }
-/* start digital-book*/
-.digital-book{
-    background-image: url(./image/banner.jpg);
-    width: 100%;
-    background-size: cover;
-    height: 50vh;
-    position: relative;
-}
-.digital-book a{
-    background-color: #089;
-    padding: 10px 20px;
-    position: absolute;
-    bottom: 50px;
-    left: 100px;
-    color: white;
-    text-decoration: none;
-}
-/*end digital-book*/
 /*start reviwes */
 .reviews{
     text-align: center;
@@ -153,3 +135,22 @@ padding: 0 8px;
     color: #089;
 }
 /*end reviwes*/
+/* start digital-book*/
+.digital-book{
+    background-image: url(./image/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.digital-book a{
+    background-color: #089;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    color: white;
+    text-decoration: none;
+}
+/*end digital-book*/
+
