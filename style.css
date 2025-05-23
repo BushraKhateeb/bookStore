@@ -56,13 +56,13 @@ padding: 0 8px;
 position: relative;
 
 } 
-.h1Proparity{
+.mainContent h1{
     font-size: 50px; 
     top: 80px;  
     left: 20px; 
     position: relative;
 } 
-.mainParagraph{
+.mainContent p{
     text-align: justify; 
     line-height: 20px;  
     position: relative; 
@@ -75,10 +75,10 @@ position: relative;
     color: #089da1; 
 
 } 
-.imgLearn {
+.mainContent img {
     width: 750px;  
     top: 75px; 
-    left: 30px;
+    left: 25px;
     position: relative; 
 
 } 
