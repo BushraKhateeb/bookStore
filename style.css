@@ -73,5 +73,12 @@ position: relative;
 } 
 .titleStyle{
     color: #089; 
-    
+
+} 
+.imgLearn{
+    width: 700px;  
+    top: 75px; 
+    left: 20px;
+    position: relative; 
+
 }
