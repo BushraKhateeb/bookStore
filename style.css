@@ -93,3 +93,20 @@ position: relative;
     
 
 }
+/* start digital-book*/
+.digital-book{
+    background-image: url(./image/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.digital-book a{
+    background-color: #089;
+    padding: 7px 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    color: white;
+    text-decoration: none;
+}
