@@ -96,6 +96,43 @@ padding: 0 8px;
     
 
 }
+/* maha work */ 
+
+
+.services .cards { 
+    display : flex ; 
+    justify-content: center ; 
+    flex-direction: row ; 
+    /* عشان اخلي الكاردز جنب بعض  */
+    flex-wrap: wrap; 
+    /* لما اصغر الشاشة ينزل من الكروت لتحت مش يدحشهم جنب بعض  */
+}
+.services .card { 
+    width : 20em ; 
+    box-shadow: 0 0px 10px rgba(0 136 153  / 100%); 
+    padding : 15px ; 
+    margin : 20px ; 
+}
+.services .icon {
+    color: #089 ; 
+    font-size: 3.5em ;
+    text-align: center ;
+}
+
+.services .info p {
+    font-size : 1em ; 
+    text-align: center;
+}
+
+.services .info h3 { 
+    font-size : 1.5em ; 
+    font-weight: 700 ;
+    letter-spacing: 1px;
+    margin : 10px; 
+    text-align: center;
+}
+
+
 /*start reviwes */
 .reviews{
     text-align: center;
