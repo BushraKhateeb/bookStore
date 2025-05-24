@@ -144,9 +144,27 @@ padding: 0 8px;
     justify-content: space-around;   
 }
 .about img {
-    width: 800px ;
+    width: 700px ;
+    margin-right:70px; 
 }
 
+.about .aboutUs h1 {
+    font-size:50px ; 
+    font-weight: 600; 
+    margin-bottom :30px ;
+    
+}
+.about .aboutUs p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+.about .aboutUs a {
+    text-decoration: none ;
+    color: white;
+    background-color: #089;
+    padding :10px 20px ; 
+
+}
 
 
 
