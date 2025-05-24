@@ -98,7 +98,7 @@ padding: 0 8px;
 }
 /* maha work */ 
 
-
+/* start of services cards  */
 .services .cards { 
     display : flex ; 
     justify-content: center ; 
@@ -122,6 +122,7 @@ padding: 0 8px;
 .services .info p {
     font-size : 1em ; 
     text-align: center;
+    width: 100%;
 }
 
 .services .info h3 { 
@@ -131,8 +132,11 @@ padding: 0 8px;
     margin : 10px; 
     text-align: center;
 }
+/* end of services cards  */
 
 
+
+/* bushra work */
 /*start reviwes */
 .reviews{
     text-align: center;
