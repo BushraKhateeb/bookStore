@@ -43,7 +43,8 @@ padding: 0 8px;
 } 
 .aMenue{
     text-decoration: none; 
-    color: black;
+    color: black; 
+   
 }  
 .navIcon{
     margin: 0 6px;  
@@ -95,7 +96,60 @@ padding: 0 8px;
     left: 25px;
     
 
-}
+}  
+ /*  shahd responsive*/ 
+
+  @media (max-width: 1024px) {
+      .mainContent {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .title {
+        max-width: 100%; 
+        
+      }
+
+      .h1Proparity {
+        font-size: 2.5rem;
+      } 
+    } 
+    @media (max-width: 414px) { 
+        .mainContent{
+         flex-direction: column;    
+          text-align: center;
+         /* flex-wrap: wrap;  */
+        }
+      .h1Proparity {
+        font-size: 2rem; 
+        flex-direction: column; 
+         text-align: center;
+        /* flex-wrap: wrap; */
+      }
+
+      .mainParagraph {
+        font-size: 0.95rem; 
+        flex-direction: column;  
+         text-align: center;
+        /* flex-wrap: wrap; */
+      }
+
+      .btnLearn {
+        font-size: 0.9rem;
+        padding: 8px 16px; 
+        flex-direction: column;  
+         text-align: center;
+        /* flex-wrap: wrap; */
+      } 
+      .imgLearn{ 
+        flex-direction: column;
+        columns: reverse;  
+         text-align: center;
+        
+        
+      }
+    }
+
 /* maha work */ 
 
 /* start of services cards  */
