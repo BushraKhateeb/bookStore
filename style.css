@@ -61,7 +61,7 @@ img.logo {
     justify-content: space-around;  
     align-items: center;  
     position: relative;
-    top: 50px; /* لتجاوز الـ nav */
+    top: 50px; 
     padding: 0 40px;
 }
 
@@ -91,6 +91,72 @@ img.logo {
     color: #fff; 
     background: #089; 
     display: inline-block;
+} 
+
+@media (max-width: 1024px) {
+  .mainContent {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .mainContent img {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    position: static;
+  }
+
+  .mainContent h1 {
+    font-size: 36px;
+    position: static;
+  }
+
+  .mainContent p {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    position: static;
+    text-align: center;
+  }
+
+  .btnLearn {
+    position: static;
+    margin: 0 auto;
+  }
+}
+ @media (max-width: 414px) {
+  .mainContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    top: 50px; 
+  }
+
+  .mainContent img {
+     display: block;
+    width: 100vw;        /* العرض الكامل للشاشة */
+    height: auto;        /* الحفاظ على النسبة */
+    margin: 0 auto 20px auto; /* توسيط + فراغ من الأسفل */
+    padding: 0;
+  }
+
+  .mainContent h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .mainContent p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .btnLearn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
 }
 
 
