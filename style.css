@@ -255,18 +255,18 @@ img.logo {
 /* arrivals*/ 
 /* General Section Styling */
 .mainArrivals {
-  padding: 40px 20px;
-  background-color: #f9f9f9;
+  width: 100%; 
+  height: 100vh; 
+  margin-bottom: 120px;
 }
 
 .arrivals h1 {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 30px;
-  color: #333;
+  font-size: 50px;
+  margin-bottom: 35px;
 }
 
-/* Flex Container */
+
 .arrivalsBox {
   display: flex;
   flex-wrap: wrap;
@@ -274,17 +274,17 @@ img.logo {
   justify-content: center;
 }
 
-/* Individual Card */
+
 .arrivalsCard {
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   overflow: hidden;
-  width: calc(25% - 20px);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease;
+  
 }
 
 .arrivalsCard:hover {
@@ -293,7 +293,7 @@ img.logo {
 
 /* Image Styling */
 .arrivalsImage img {
-  width: 100%;
+  width: 150px;
   height: auto;
   display: block;
 }
