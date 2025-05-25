@@ -274,7 +274,7 @@ img.logo {
 
 .arrivalsCard:hover {
  box-shadow: 0 0 5px #089da1; 
- transform: scale(1.1);
+
 } 
  
 
@@ -289,6 +289,9 @@ width: 150px;
   align-items: center ;
   display: block; 
   margin-left: 50px;
+} 
+ .arrivalsImage img:hover {
+  transform: scale(1.1); 
 }
 
 /* Tag Section */
