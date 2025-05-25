@@ -47,13 +47,14 @@ img.logo {
 
 .aMenue {
     text-decoration: none; 
-    color: black; 
+    color: black;  
+    font-size: 17px;
 }  
 
 .navIcon {
     margin: 0 6px;  
     padding: 0 3px;
-    font-size: 15px;
+    font-size: 20px;
 } 
 
 .mainContent {
@@ -61,7 +62,7 @@ img.logo {
     justify-content: space-around;  
     align-items: center;  
     position: relative;
-    top: 50px; 
+    top: 30px; 
     padding: 0 40px;
 }
 
@@ -280,7 +281,10 @@ img.logo {
 
 /* Image Styling */ 
 .arrivalsImage{
-width: 150px;
+width: 150px; 
+.arrivalsImage img{
+    transform-origin: center center;
+  }
 
 }
 
@@ -288,7 +292,9 @@ width: 150px;
   width: 150px;
   align-items: center ;
   display: block; 
-  margin-left: 50px;
+  margin-left: 50px; 
+  transform-origin: center center;
+
 } 
  .arrivalsImage img:hover {
   transform: scale(1.1); 
@@ -337,13 +343,19 @@ width: 150px;
 @media (max-width: 768px) {
   .arrivalsCard {
     width: calc(50% - 20px);
+  } 
+  .arrivalsImage img{
+    transform-origin: center center;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 414px) {
   .arrivalsCard {
     width: 100%;
-  } 
+  }  
+   .arrivalsImage img{
+    transform-origin: center center;
+  }
   
 }
 
