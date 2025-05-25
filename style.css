@@ -83,7 +83,7 @@ img.logo {
 } 
 
 .mainContent img {
-    width: 750px;
+    width: 850px;
 } 
 
 .btnLearn {
@@ -137,7 +137,7 @@ img.logo {
   .mainContent img {
      display: block;
     width: 100vw;        /* العرض الكامل للشاشة */
-    height: auto;        /* الحفاظ على النسبة */
+    height: auto;  
     margin: 0 auto 20px auto; /* توسيط + فراغ من الأسفل */
     padding: 0;
   }
@@ -247,7 +247,7 @@ img.logo {
 
 .arrivals h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 35px;
 }
 
@@ -314,13 +314,13 @@ width: 150px;
   margin-bottom: 8px 0;
 }
 
-/* Stars */
+
 .arrivalsIcon i {
   color:#089da1;
   margin: 0 1px;
 }
 
-/* Button */
+
 .arrivalsBtn {
   display: inline-block;
   margin-top: 10px;
@@ -333,7 +333,7 @@ width: 150px;
 }
 
 
-/* Responsive Design */
+/* Responsive*/
 @media (max-width: 1200px) {
   .arrivalsCard {
     width: calc(33.333% - 20px);
@@ -357,8 +357,7 @@ width: 150px;
     transform-origin: center center;
   }
   
-}
-
+} /* end shahd Arrivals*/
 
 
 /* bushra work */
