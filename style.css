@@ -254,7 +254,7 @@ img.logo {
     overflow: hidden;
     overflow-x: scroll;
 }
-.Featured-books .Featured-books-box .Featured-books-card { 
+.Featured-books .Featured-books-card { 
     width:250px ; 
     height: 400px;
     text-align: center;
@@ -263,11 +263,23 @@ img.logo {
     margin : auto 20px;
 
 }
-.Featured-books .Featured-books-box .Featured-books-card:hover {
+.Featured-books .Featured-books-card:hover {
     box-shadow: 0 0 5px #089;
 }
 .Featured-books .book-img img {
     width: 150px;
+}
+.Featured-books .book-tag h3 {
+    margin: 10px;
+    font-size: 25px;
+}
+.Featured-books .book-tag .writer {
+    margin-bottom: 10px;
+    color: #919191;
+}
+.Featured-books .book-tag .catigore {
+    color: #089;
+    margin-bottom: 10px;
 }
 
 /* arrivals*/ 
