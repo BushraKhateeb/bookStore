@@ -164,6 +164,40 @@ img.logo {
     display: none;
   }
 }
+@media (max-width:768px) {
+    .mainContent {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .mainContent img {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 50px; 
+    margin-top: 30px;
+    position: static;
+  }
+
+  .mainContent h1 { 
+    margin-top: 50px;
+    font-size: 36px;
+    position: static;
+  }
+
+  .mainContent p {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    position: static;
+    text-align: center;
+  }
+
+  .btnLearn {
+    position: static;
+    margin: 0 auto;
+  }
+}
+
 
 
 /* maha work */ 
@@ -201,6 +235,31 @@ img.logo {
     letter-spacing: 1px;
     margin : 10px; 
     text-align: center;
+}
+@media (max-width: 1024px) {
+    .services .card { 
+    width : 15em ; 
+    box-shadow: 0 0px 10px rgba(0 136 153  / 100%); 
+    padding : 10px ; 
+    margin : 15px ; 
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .services .cards { 
+    display : flex ; 
+    justify-content: center ; 
+    flex-direction: column ; 
+    align-items: center;
+    }
+    .services .card { 
+    width : 70% ; 
+    box-shadow: 0 0px 10px rgba(0 136 153  / 100%); 
+    padding : 10px ; 
+    margin : 50px ; 
+    }
 }
 /* end of services cards  */
 /* about  */
