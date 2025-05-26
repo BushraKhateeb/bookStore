@@ -266,6 +266,9 @@ img.logo {
 .Featured-books .Featured-books-box .Featured-books-card:hover {
     box-shadow: 0 0 5px #089;
 }
+.Featured-books .book-img img {
+    width: 150px;
+}
 
 /* arrivals*/ 
 /* shahd  */
