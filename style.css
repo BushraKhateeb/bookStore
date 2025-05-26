@@ -279,7 +279,15 @@ img.logo {
 }
 .Featured-books .book-tag .catigore {
     color: #089;
+    margin-bottom: 7px;
+}
+.Featured-books .book-tag .price {
+    font-weight: bold;
     margin-bottom: 10px;
+}
+.Featured-books .book-tag sub {
+    font-weight: 100;
+    padding :0 5;
 }
 
 /* arrivals*/ 
