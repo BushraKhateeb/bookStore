@@ -62,7 +62,7 @@ img.logo {
     justify-content: space-around;  
     align-items: center;  
     position: relative;
-    top: 30px; 
+   
     padding: 0 40px;
 }
 
@@ -137,9 +137,9 @@ img.logo {
 
   .mainContent img {
      display: block;
-    width: 100vw;        /* العرض الكامل للشاشة */
+    width: 100vw;        
     height: auto;  
-    margin: 0 auto 20px auto; /* توسيط + فراغ من الأسفل */
+    margin: 0 auto 20px auto; 
     padding: 0;
   }
 
@@ -158,6 +158,10 @@ img.logo {
   .btnLearn {
     font-size: 14px;
     padding: 10px 20px;
+  } 
+
+  .aMenue{
+    display: none;
   }
 }
 
@@ -275,17 +279,17 @@ img.logo {
 }
 
 .arrivalsCard:hover {
- box-shadow: 0 0 5px #089da1; 
+ box-shadow: 0 0 5px #089da1;  
+ .arrivalsImage:hover {
+  transform: scale(1.1); 
+}
 
 } 
  
 
 /* Image Styling */ 
 .arrivalsImage{
-width: 150px; 
-.arrivalsImage img{
-    transform-origin: center center;
-  }
+margin: auto 0px;
 
 }
 
@@ -294,10 +298,11 @@ width: 150px;
   align-items: center ;
   display: block; 
   margin-left: 50px; 
-  transform-origin: center center;
+  transform-origin: center center; 
 
-} 
- .arrivalsImage img:hover {
+}  
+
+ .arrivalsImage:hover {
   transform: scale(1.1); 
 }
 
