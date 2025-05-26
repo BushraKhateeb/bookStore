@@ -201,4 +201,13 @@ ul{
 a{
     color: black;
 }
+.main-contant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sub-footer{
+    width: 18%;
+}
+
 
