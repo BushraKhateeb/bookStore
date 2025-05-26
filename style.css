@@ -225,7 +225,8 @@ a{
 input{
     border-radius: 20px;
     border: 0px;
-    background-color: gray;
+    background-color: rgb(150, 150, 150);
+    margin-top: 30px;
     margin-bottom: 15px;
     height: 30px;
 }
@@ -238,6 +239,18 @@ input::placeholder{
     color: white;
     background-color: #089;
     border: 0px;
+}
+.copy-right span{
+    color: #089;
+}
+.copy-right {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.contant-info>div{
+    display: flex;
+    line-height: 1.8;
+
 }
 
 
