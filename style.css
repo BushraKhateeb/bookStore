@@ -157,6 +157,7 @@ padding: 0 8px;
 /*start our blog*/
 .blogs{
     text-align: center;
+    padding: 50px 0;
 }
 .blog{
     display: flex;
@@ -188,4 +189,16 @@ padding: 0 8px;
     color: #089;
 }
 /*end our blog*/
+/*start footer*/
+.footer{
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+}
+ul{
+    list-style: none;
+    color: black;
+}
+a{
+    color: black;
+}
 
