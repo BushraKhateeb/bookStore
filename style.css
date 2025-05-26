@@ -222,5 +222,22 @@ a{
 .footer i{
     padding-right: 5px;
 }
+input{
+    border-radius: 20px;
+    border: 0px;
+    background-color: gray;
+    margin-bottom: 15px;
+    height: 30px;
+}
+input::placeholder{
+    color: white;
+}
+.sub-footer button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #089;
+    border: 0px;
+}
 
 
