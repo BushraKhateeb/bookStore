@@ -231,14 +231,32 @@ img.logo {
     padding :10px 20px ; 
 
 }
-
-
-
-
-
-
+/* featured books  */
+.Featured-books {
+    width: 100%;
+    padding : 70px ;
+    height: 100vh;
+}
+.Featured-books h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.Featured-books .Featured-books-box{
+    width : 95%; 
+    /* 60% of user height screen  */
+    height: 60vh; 
+    margin:0 auto ; 
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    overflow: hidden;
+    overflow-x: scroll;
+}
 
 /* arrivals*/ 
+/* shahd  */
 
 .mainArrivals {
   width: 100%; 
