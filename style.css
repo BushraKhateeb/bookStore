@@ -294,6 +294,30 @@ img.logo {
     padding :10px 20px ; 
 
 }
+@media (max-width: 1024px){
+   .about {
+    padding: 30px;
+    gap: 1.5rem;
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  } 
+ 
+  .about-image img {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+}
+  
 /* featured books  */
 .Featured-books {
     width: 100%;
