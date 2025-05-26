@@ -254,6 +254,18 @@ img.logo {
     overflow: hidden;
     overflow-x: scroll;
 }
+.Featured-books .Featured-books-box .Featured-books-card { 
+    width:250px ; 
+    height: 400px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin : auto 20px;
+
+}
+.Featured-books .Featured-books-box .Featured-books-card:hover {
+    box-shadow: 0 0 5px #089;
+}
 
 /* arrivals*/ 
 /* shahd  */
