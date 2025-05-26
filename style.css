@@ -254,7 +254,7 @@ img.logo {
     overflow: hidden;
     overflow-x: scroll;
 }
-.Featured-books .Featured-books-box .Featured-books-card { 
+.Featured-books .Featured-books-card { 
     width:250px ; 
     height: 400px;
     text-align: center;
@@ -263,11 +263,48 @@ img.logo {
     margin : auto 20px;
 
 }
-.Featured-books .Featured-books-box .Featured-books-card:hover {
+.Featured-books .Featured-books-card:hover {
     box-shadow: 0 0 5px #089;
 }
 .Featured-books .book-img img {
-    width: 150px;
+    width: 135px;
+}
+.Featured-books .book-tag h3 {
+    margin: 10px;
+    font-size: 25px;
+}
+.Featured-books .book-tag .writer {
+    margin-bottom: 10px;
+    color: #919191;
+}
+.Featured-books .book-tag .catigore {
+    color: #089;
+    margin-bottom: 7px;
+}
+.Featured-books .book-tag .price {
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+.Featured-books .book-tag sub {
+    font-weight: 100;
+    padding :0 5;
+}
+.Featured-books .book-tag .fb-btn{
+    padding :10px 25px ; 
+    border :2px solid #089;
+    margin-top: 15px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0 0 0 / 20%);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #089;
+    border-radius: 10px;
 }
 
 /* arrivals*/ 
