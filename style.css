@@ -1,101 +1,578 @@
-*{
-margin: 0; 
-padding: 0;
-box-sizing: border-box; 
-font-family: sans-serif; 
-} 
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+}  
+
 .container{
     width: calc(100% - 100px);
     margin: auto;
 }
 
-.mainSection{
-width: 100%; 
-height:100vh; 
-background-image: url(./image/bg.png);
-background-size: cover; 
-background-position: center; 
-background-repeat: no-repeat;
+.mainContent {
+    width: 100%; 
+    height: 100vh; 
+    background-image: url(./image/bg.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
-.heroSection{
-width: 100%;
-align-items: center; 
-justify-content: space-around; 
-background: #fff; 
-display: flex;
-box-shadow: 0 0 8px  #089; 
-position: fixed;  
 
-left: 0; 
-z-index: 100;
-} 
-img.logo{
-width: 100px; 
-margin: 8px 0 ; 
+.heroSection {
+    width: 100%;
+    align-items: center; 
+    justify-content: space-around; 
+    background: #fff; 
+    display: flex;
+    box-shadow: 0 0 8px #089; 
+    position: fixed;  
+    left: 0; 
+    z-index: 100;
+}
 
+img.logo {
+    width: 100px; 
+    margin: 8px 0; 
 } 
-.navMenu{
-list-style: none;
+
+.navMenu {
+    list-style: none;
 }  
-.liMenu{
-display: inline-block; 
-padding: 0 8px;
+
+.liMenu {
+    display: inline-block; 
+    padding: 0 8px;
 } 
-.aMenue{
+
+.aMenue {
     text-decoration: none; 
-    color: black;
+    color: black;  
+    font-size: 17px;
 }  
-.navIcon{
+.hid-menu{
+  display: none;
+}
+
+.navIcon {
     margin: 0 6px;  
     padding: 0 3px;
-    font-size: 15px;
+    font-size: 20px;
 } 
- .mainContent{
-
-    display: flex ;  
-    top: 10%;
+ 
+.mainContent {
+    display: flex;  
     justify-content: space-around;  
     align-items: center;  
     position: relative;
+   
+    padding: 0 40px;
+}
 
-} 
-.mainContent h1{
+.mainContent h1 {
     font-size: 50px; 
-    top: 80px;  
-    left: 20px; 
-    position: relative;
-} 
-.mainContent p{
+    margin-bottom: 20px;
+}
+
+.mainContent p {
     text-align: justify; 
-    line-height: 20px;  
-    position: relative; 
-    width: 500px; 
-    top: 120px; 
-    left: 20px;
-
+    line-height: 1.6;  
+    width: 500px;
+    margin-bottom: 30px; 
+    font-size: 20px;
 } 
-.titleStyle{
+
+.titleStyle {
     color: #089da1; 
-
 } 
+
 .mainContent img {
-    width: 750px;  
-    top: 75px; 
-    left: 25px;
-    position: relative; 
-
+    width: 850px;
 } 
-.btnLearn{
+
+.btnLearn {
     text-decoration: none; 
     padding: 10px 20px;
-    position: relative; 
     color: #fff; 
     background: #089; 
-    top: 200px; 
-    left: 25px;
-    
+    display: inline-block;
+} 
+
+@media (max-width: 1024px) {
+  .mainContent {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .mainContent img {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    position: static;
+  }
+
+  .mainContent h1 {
+    font-size: 36px;
+    position: static;
+  }
+
+  .mainContent p {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    position: static;
+    text-align: center;
+  }
+
+  .btnLearn {
+    position: static;
+    margin: 0 auto;
+  }
+}
+ @media (max-width: 415px) {
+  .mainContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    top: 50px; 
+  }
+
+  .mainContent img {
+     display: block;
+    width: 100vw;        
+    height: auto;  
+    margin: 0 auto 20px auto; 
+    padding: 0;
+  }
+
+  .mainContent h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .mainContent p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .btnLearn {
+    font-size: 14px;
+    padding: 10px 20px;
+  } 
+
+  .heroSection{
+    width: 100vw;
+  }
+} 
+@media (max-width:768px) {
+
+  .aMenue{
+    display: none;
+  } 
+  .hid-menu{
+  display: inline;
+}
+    .mainContent {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .mainContent img {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 50px; 
+    margin-top: 30px;
+    position: static;
+  }
+
+  .mainContent h1 { 
+    margin-top: 50px;
+    font-size: 36px;
+    position: static;
+  }
+
+  .mainContent p {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    position: static;
+    text-align: center;
+  }
+
+  .btnLearn {
+    position: static;
+    margin: 0 auto;
+  } 
+
+  .heroSection{
+    width: 100vw;
+  } 
+  
+}
+@media (max-width:768px) {
+    .mainContent {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .mainContent img {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 50px; 
+    margin-top: 30px;
+    position: static;
+  }
+
+  .mainContent h1 { 
+    margin-top: 50px;
+    font-size: 36px;
+    position: static;
+  }
+
+  .mainContent p {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    position: static;
+    text-align: center;
+  }
+
+  .btnLearn {
+    position: static;
+    margin: 0 auto;
+  }
+}
+
+
+
+/* maha work */ 
+
+/* start of services cards  */
+.services .cards { 
+    display : flex ; 
+    justify-content: center ; 
+    flex-direction: row ; 
+    flex-wrap: wrap; 
+}
+.services .card { 
+    width : 20em ; 
+    box-shadow: 0 0px 10px rgba(0 136 153  / 100%); 
+    padding : 15px ; 
+    margin : 20px ; 
+}
+.services .icon {
+    color: #089 ; 
+    font-size: 3.5em ;
+    text-align: center ;
+}
+
+.services .info p {
+    font-size : 1em ; 
+    text-align: center;
+    width: 100%;
+}
+
+.services .info h3 { 
+    font-size : 1.5em ; 
+    font-weight: 700 ;
+    letter-spacing: 1px;
+    margin : 10px; 
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    .services .card { 
+    width : 15em ; 
+    box-shadow: 0 0px 10px rgba(0 136 153  / 100%); 
+    padding : 10px ; 
+    margin : 15px ; 
+    }
+
 
 }
+
+@media (max-width: 600px) {
+    .services .cards { 
+    display : flex ; 
+    justify-content: center ; 
+    flex-direction: column ; 
+    align-items: center;
+    }
+    .services .card { 
+    width : 70% ; 
+    box-shadow: 0 0px 10px rgba(0 136 153  / 100%); 
+    padding : 10px ; 
+    margin : 50px ; 
+    }
+}
+/* end of services cards  */
+/* about  */
+
+.about { 
+    width: 100%; 
+    height: auto;
+    padding:20px ; 
+    align-items: center;
+    display: flex ;
+    justify-content: space-around;   
+}
+.about img {
+    width: 100%;
+}
+
+.about .aboutUs h1 {
+    font-size:50px ; 
+    font-weight: 600; 
+    margin-bottom :30px ;
+    
+}
+.about .aboutUs p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+.about .aboutUs a {
+    text-decoration: none ;
+    color: white;
+    background-color: #089;
+    padding :10px 20px ; 
+
+}
+@media (max-width: 1024px){
+   .about {
+    padding: 30px;
+    gap: 1.5rem;
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  } 
+ 
+  .about-image img {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+}
+  
+/* featured books  */
+.Featured-books {
+    width: 100%;
+    padding : 70px ;
+    height: 100vh;
+}
+.Featured-books h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.Featured-books .Featured-books-box{
+    width : 95%; 
+    /* 60% of user height screen  */
+    height: 60vh; 
+    margin:0 auto ; 
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.Featured-books .Featured-books-card { 
+    width:250px ; 
+    height: 400px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin : auto 20px;
+
+}
+.Featured-books .Featured-books-card:hover {
+    box-shadow: 0 0 5px #089;
+}
+.Featured-books .book-img img {
+    width: 135px;
+}
+.Featured-books .book-tag h3 {
+    margin: 10px;
+    font-size: 25px;
+}
+.Featured-books .book-tag .writer {
+    margin-bottom: 10px;
+    color: #919191;
+}
+.Featured-books .book-tag .catigore {
+    color: #089;
+    margin-bottom: 7px;
+}
+.Featured-books .book-tag .price {
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+.Featured-books .book-tag sub {
+    font-weight: 100;
+    padding :0 5;
+}
+.Featured-books .book-tag .fb-btn{
+    padding :10px 25px ; 
+    border :2px solid #089;
+    margin-top: 15px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0 0 0 / 20%);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #089;
+    border-radius: 10px;
+}
+
+/* arrivals*/ 
+/* shahd  */
+
+.mainArrivals {
+  width: 100%; 
+  height: 100vh; 
+  margin-bottom: 120px;
+}
+
+.arrivals h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+
+.arrivalsBox { 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.arrivalsCard {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 250px; 
+  height: 340px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.arrivalsCard:hover {
+ box-shadow: 0 0 5px #089da1;  
+ .arrivalsImage:hover {
+  transform: scale(1.1); 
+}
+
+} 
+ 
+
+/* Image Styling */ 
+.arrivalsImage{
+margin: auto 0px;
+
+}
+
+.arrivalsImage img {
+  width: 150px;
+  align-items: center ;
+  display: block; 
+  margin-left: 50px; 
+  transform-origin: center center; 
+
+}  
+
+ .arrivalsImage:hover {
+  transform: scale(1.1); 
+}
+
+/* Tag Section */
+.arrivalsTag {
+  padding: 15px;
+  text-align: center;
+}
+
+.arrivalsTag p { 
+    font-size: 20px; 
+    font-family: queen of camelot;
+  
+  color: #000;
+  margin-bottom: 8px 0;
+}
+
+
+.arrivalsIcon i {
+  color:#089da1;
+  margin: 0 1px;
+}
+
+
+.arrivalsBtn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: 2px solid #089da1;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+
+}
+
+
+/* Responsive*/
+@media (max-width: 1200px) {
+  .arrivalsCard {
+    width: calc(33.333% - 20px);
+  }  
+  .arrivalsImage img{
+    transform-origin: center center; 
+    margin-left: 110px;  
+  }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+  .arrivalsCard {
+    width: calc(50% - 20px);
+  } 
+  .arrivalsImage img{
+    transform-origin: center center;
+  }
+}
+
+@media (max-width: 414px) {
+  .arrivalsCard {
+    width: 100%;
+  }  
+   .arrivalsImage img{
+    transform-origin: center center; 
+    margin-left: 130px; }
+   }
+/* end shahd Arrivals*/
+
+
+/* bushra work */
 /*start reviwes */
 .reviews{
     text-align: center;
@@ -135,6 +612,38 @@ padding: 0 8px;
 .text-card i{
     color: #089;
 }
+@media (max-width: 1330px) {
+  .reviews{
+    margin-top: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  .reviews{
+    margin-top: 400px;
+  }
+}
+@media (max-width: 851px) {
+  .reviews{
+    margin-top: 900px;
+  }
+  .rev-card{
+        width: 48%;
+  }
+}
+@media (max-width: 770px) {
+.reviews{
+    margin-top: 1270px;
+  }
+
+}
+@media (max-width: 550px) {
+ .rev-card{
+        width: 99%;
+  }
+
+}
+
+
 /*end reviwes*/
 /* start digital-book*/
 .digital-book{
@@ -252,5 +761,41 @@ input::placeholder{
     line-height: 1.8;
 
 }
+@media (max-width:1024px) {
+  .sub-footer {
+    width: 33%;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}
 
+
+@media (max-width:588px) {
+  .sub-footer {
+    width: 100%;
+    padding-bottom: 30px;
+
+  }
+  .contant-info>div {
+    flex-direction: column;
+}
+    .reviews {
+        margin-top: 687px;
+    }
+}
+@media (max-width:977px) {
+  .blog-card {
+    width: 100%;
+}
+.digital-book {
+    background-image: url(./image/banner.jpg);
+    width: 100%;
+    background-size: 150% 100%;
+}
+}
+@media (max-width: 415px) {
+      .reviews {
+        margin-top: 980px;
+    }
+}
 
