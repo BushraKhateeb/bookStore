@@ -195,7 +195,7 @@ img.logo {
   .btnLearn {
     position: static;
     margin: 0 auto;
-  }
+    }
 }
 
 
@@ -207,10 +207,7 @@ img.logo {
     display : flex ; 
     justify-content: center ; 
     flex-direction: row ; 
-    /* عشان اخلي الكاردز جنب بعض  */
-    flex-wrap: wrap; 
-    /* لما اصغر الشاشة ينزل من الكروت لتحت مش يدحشهم جنب بعض  */
-}
+    flex-wrap: wrap; }
 .services .card { 
     width : 20em ; 
     box-shadow: 0 0px 10px rgba(0 136 153  / 100%); 
