@@ -657,8 +657,8 @@ margin: auto 0px;
 .icons i, .blog-card h3{
     color: #089;
 }
-/*end our blog*/
-/*start footer*/
+
+
 .footer{
     background-color: rgb(237, 237, 237);
     text-align: center;
@@ -721,5 +721,6 @@ input::placeholder{
     line-height: 1.8;
 
 }
+
 
 
