@@ -50,13 +50,16 @@ img.logo {
     color: black;  
     font-size: 17px;
 }  
+.hid-menu{
+  display: none;
+}
 
 .navIcon {
     margin: 0 6px;  
     padding: 0 3px;
     font-size: 20px;
 } 
-
+ 
 .mainContent {
     display: flex;  
     justify-content: space-around;  
@@ -126,7 +129,7 @@ img.logo {
     margin: 0 auto;
   }
 }
- @media (max-width: 414px) {
+ @media (max-width: 415px) {
   .mainContent {
     flex-direction: column;
     align-items: center;
@@ -160,14 +163,18 @@ img.logo {
     padding: 10px 20px;
   } 
 
-  .aMenue{
-    display: none;
-  } 
   .heroSection{
     width: 100vw;
   }
 } 
 @media (max-width:768px) {
+
+  .aMenue{
+    display: none;
+  } 
+  .hid-menu{
+  display: inline;
+}
     .mainContent {
     flex-direction: column;
     text-align: center;
@@ -202,7 +209,8 @@ img.logo {
 
   .heroSection{
     width: 100vw;
-  }
+  } 
+  
 }
 @media (max-width:768px) {
     .mainContent {
@@ -235,7 +243,7 @@ img.logo {
   .btnLearn {
     position: static;
     margin: 0 auto;
-    }
+  }
 }
 
 
@@ -247,7 +255,8 @@ img.logo {
     display : flex ; 
     justify-content: center ; 
     flex-direction: row ; 
-    flex-wrap: wrap; }
+    flex-wrap: wrap; 
+}
 .services .card { 
     width : 20em ; 
     box-shadow: 0 0px 10px rgba(0 136 153  / 100%); 
@@ -310,8 +319,7 @@ img.logo {
     justify-content: space-around;   
 }
 .about img {
-    width: 700px ;
-    margin-right:70px; 
+    width: 100%;
 }
 
 .about .aboutUs h1 {
@@ -559,7 +567,7 @@ margin: auto 0px;
   }  
    .arrivalsImage img{
     transform-origin: center center; 
-    margin-left: 130px; }
+    margin-left: 130px; }
    }
 /* end shahd Arrivals*/
 
@@ -604,6 +612,38 @@ margin: auto 0px;
 .text-card i{
     color: #089;
 }
+@media (max-width: 1330px) {
+  .reviews{
+    margin-top: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  .reviews{
+    margin-top: 400px;
+  }
+}
+@media (max-width: 851px) {
+  .reviews{
+    margin-top: 900px;
+  }
+  .rev-card{
+        width: 48%;
+  }
+}
+@media (max-width: 770px) {
+.reviews{
+    margin-top: 1270px;
+  }
+
+}
+@media (max-width: 550px) {
+ .rev-card{
+        width: 99%;
+  }
+
+}
+
+
 /*end reviwes*/
 /* start digital-book*/
 .digital-book{
@@ -657,8 +697,8 @@ margin: auto 0px;
 .icons i, .blog-card h3{
     color: #089;
 }
-
-
+/*end our blog*/
+/*start footer*/
 .footer{
     background-color: rgb(237, 237, 237);
     text-align: center;
@@ -721,6 +761,41 @@ input::placeholder{
     line-height: 1.8;
 
 }
+@media (max-width:1024px) {
+  .sub-footer {
+    width: 33%;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}
 
 
+@media (max-width:588px) {
+  .sub-footer {
+    width: 100%;
+    padding-bottom: 30px;
+
+  }
+  .contant-info>div {
+    flex-direction: column;
+}
+    .reviews {
+        margin-top: 687px;
+    }
+}
+@media (max-width:977px) {
+  .blog-card {
+    width: 100%;
+}
+.digital-book {
+    background-image: url(./image/banner.jpg);
+    width: 100%;
+    background-size: 150% 100%;
+}
+}
+@media (max-width: 415px) {
+      .reviews {
+        margin-top: 980px;
+    }
+}
 
